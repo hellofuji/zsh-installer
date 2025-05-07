@@ -129,8 +129,12 @@ fi
 # Completion
 echo -e "\n${GREEN}Installation complete!${NC}"
 echo -e "New theme: ${CYAN}${theme}${NC}"
-echo -e "\nRestart your terminal or run: ${BOLD}exec zsh${NORMAL}"
 
 if [[ "$theme" == "powerlevel10k/powerlevel10k" ]]; then
     echo -e "\n${YELLOW}After restart, configure Powerlevel10k with: p10k configure${NC}"
 fi
+
+# Automatically restart the shell session
+echo -e "\n${BLUE}Restarting your shell session to apply changes...${NC}"
+sleep 2
+exec zsh
