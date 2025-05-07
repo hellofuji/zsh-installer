@@ -26,5 +26,5 @@ The ultimate all-in-one solution to install ZSH and configure it beautifully in 
 
 ```bash
 wget https://raw.githubusercontent.com/hellofuji/zsh-installer/main/install_zsh.sh
-chmod +x install.sh
+chmod +x install_zsh.sh
 ./install.sh
