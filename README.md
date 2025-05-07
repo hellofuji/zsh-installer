@@ -25,10 +25,6 @@ The ultimate all-in-one solution to install ZSH and configure it beautifully in 
 ## 🚀 Installation
 
 ```bash
-# For the impatient (direct pipe to bash):
-curl -fsSL https://raw.githubusercontent.com/hellofuji/zsh-installer/main/install_zsh.sh | bash
-
-# For the cautious (download first):
 wget https://raw.githubusercontent.com/hellofuji/zsh-installer/main/install_zsh.sh
 chmod +x install.sh
 ./install.sh
